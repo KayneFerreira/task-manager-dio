@@ -1,0 +1,12 @@
+spring:
+  application:
+  name: taskmanager
+
+# Configuração da Interface do Swagger UI (Springdoc)
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    tryItOutEnabled: true
+  api-docs:
+    path: /v3/api-docs
